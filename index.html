@@ -1,8 +1,138 @@
-​<html>
-  <head>
-    <title>Ma première page HTML</title>
-  <head>
-  <body>
-    <h1>Salut Github !</h1>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="index.html" class="navbar-link">Accueil</a></li>
+            <li class="navbar-item"><a href="projets.html" class="navbar-link">Projets</a></li>
+
+        </ul>
+    </nav>
+    
+    <section class="first-section">
+        <div class="first-section-content">
+            <img src="IMG_0453.jpg" alt="Photo de profil" class="profile-pic"> 
+
+            <h1 style="text-align: center;">JOSHUA NOGUEIRA DE BARROS</h1>
+            <h2 style="text-align: center;">Etudiant en informatique</h2>
+            <p class="first">Je suis un étudiant en qui vient de commencer sa première année de licence en informatique,
+                spécialisé en développement web à l'université de Limoges. Passionné
+                par les technologies du web, je me concentre sur l'apprentissage et la maîtrise des outils et frameworks
+                modernes pour créer des applications performantes et innovantes. Je m'intéresse particulièrement au
+                développement frontend et backend, ainsi qu'à l'optimisation de l'expérience utilisateur.</p>
+            <div class="row">
+                <div class="col-1">
+                    <h3 style="text-align: center;">Intérêts</h3>
+                    <ul class="Intérêts">
+                        <li>Jeux vidéo</li>
+                        <li>Technologies</li>
+                        <li>Programmation</li>
+                        <li>Design</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h3 style="text-align: center;">Formation</h3>
+                    <ul class="Intérêts">
+                        <li><strong>Licence Applications Web - Université de Limoges</strong>
+                            <br> Depuis 2024
+                        </li>
+                        </li>
+                        <br>
+                        <li><strong>Bac S mention très bien - Lisgar Collegiate Institute</strong>
+                            <br> 09/2019 - 06/2023
+                        </li>
+                        </li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-section">
+        <div class="second-section-content">
+            <h1 style="text-align: center;">Langues de Programmation</h1>
+            <div class="row-2">
+                <div class="col-3" style="margin-left: 2pc; margin-right: 2pc;">
+                    <img src="html.png" alt="HTML">
+                    <p style="text-align: center;">HTML</p>
+                </div>
+                <div class="col-4" style="margin-left: 2pc; margin-right: 2pc;">
+                    <img src="css.png" alt="CSS">
+                    <p style="text-align: center;">CSS</p>
+                </div>
+                <div class="col-5" style="margin-left: 2pc; margin-right: 2pc;">
+                    <img src="js.png" alt="JavaScript">
+                    <p style="text-align: center;">JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="design-section">
+        <h1 style="color: white;">Expériences</h1>
+        <div class="timeline">
+            <div class="timeline-empty">
+            </div>
+            <div class="timeline-middle">
+                <div class="timeline-circle"></div>
+            </div>
+            <div class="timeline-component timeline-content">
+                <h3>Vendeur Levi’s - Ottawa, Canada</h3>
+                <p style="font-size: 14px;"><strong>JUIN À AOÛT 2021</strong></p>
+                <p>Accueil des clients avec professionnalisme et enthousiasme
+                    <br>
+                    <br>Participation à la mise en place des vitrines et à la présentation des produits
+                    <br>
+                    <br> Identification des besoins des clients et proposition des solutions adaptées.
+                </p>
+            </div>
+            <div class="timeline-component timeline-content">
+                <h3>Animateur Club 310 - Ottawa, Canada</h3>
+                <p style="font-size: 14px;"><strong>JUIN À AOÛT 2019</strong></p>
+                <p> Planification des activités ludiques et éducatives adaptées aux enfants
+                    <br>
+                    <br>Conception des activités éducatives pour les enfants de 6 à 12 ans
+                    <br>
+                    <br>Création d'un bon environnement, en veillant au bien-être des participants.
+                </p>
+            </div>
+            <div class="timeline-middle">
+                <div class="timeline-circle"></div>
+            </div>
+            <div class="timeline-empty">
+            </div>
+            <div class="timeline-empty">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div style="text-align: center;">
+            <div class="social-content">
+                <h2 style="text-align: center;">Mes réseaux sociaux</h2>
+                <div class="row-3">
+                    <div class="social-item">
+                        <img src="github.png" alt="GitHub">
+                        <br>
+                        <a href="https://github.com/joshua-nogueira" target="_blank" class="social-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <p style="text-align: center;">&copy; 2025 Joshua Nogueira De Barros. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
 </html>
